@@ -1,0 +1,401 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    animation: fadein 2s;
+}
+@keyframes fadein{from{opacity: 0}to{opacity: 1}}
+.container{
+    display: flex;
+    box-sizing: border-box;
+    color: aliceblue;
+   margin-left: 23vw;
+
+}
+
+/* Sidebar Css */
+.sidebar{
+    display: flex;
+    height: 100vh;
+    width: 23vw;
+    background-color:rgb(248, 248, 255);
+    box-shadow: 2px 0px 5px rgb(180, 180, 180);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 1s;
+}
+.logo img{
+    height: 75px;
+    width: 75px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 2px #dddddd ,0px 0px 0px 5px #ecf0f3,8px 8px 15px #a7aaaf,-8px -8px 15px #fff;
+    
+}
+/* Heading Name */
+.para1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+    color: rgb(61, 61, 61);
+}
+.para2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    letter-spacing: 3px;
+    padding-top: 5px;
+    color: rgb(61, 61, 61);
+}
+
+/* Creating Menu Options */
+ ul li{
+    /* background-color:rgb(248, 248, 255); */
+    box-shadow: 0px 0px 2px #ffffff ,0px 0px 0px 5px #ecf0f3,5px 5px 15px #a7aaaf;
+    border-radius: 10px;
+    list-style: none;
+    padding: 10px;
+    width: 200px;
+    margin-top:20px;
+    text-align: center;
+    cursor: pointer;
+}
+ ul li a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-decoration: none;
+   font-size: large;
+   color: blueviolet;
+   font-weight: bolder;
+}
+
+/* Social Media Links */
+.pr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   
+}
+.para3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    
+    color: rgb(153, 0, 255);
+}
+.ul1 li{
+    /* background-color:rgb(248, 248, 255); */
+    box-shadow: 0px 0px 2px #ffffff ,0px 0px 0px 5px #ecf0f3,5px 5px 15px #a7aaaf;
+    border-radius: 5px;
+    font-size: 10px;
+    list-style: none;
+    padding: 5px;
+    width: 150px;
+    margin-top:20px;
+    text-align: center;
+    cursor: pointer;
+}
+.ul1 li a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-decoration: none;
+   font-size: small;
+   color: rgb(3, 3, 3);
+   font-weight: bolder;
+}
+
+
+
+/* Main body of The Program */
+.content{
+
+    height: 100vh;
+    width: 77vw;
+    
+    /* background-color: rgb(242, 236, 255); */
+}
+
+/* Home-Page Css Desiging */
+.homepage{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #ffffff; */
+}
+.logo1 img{
+    height: 100px;
+    width: 100px;
+  
+    border-radius: 50%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 2px #b3b3b3 ,0px 0px 0px 5px #ffffff,8px 8px 10px #a7aaaf,-8px -8px 15px rgb(247, 247, 247);
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: black;
+}
+.para5{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding-top: 5px;
+    color: rgb(61, 61, 61);
+}
+.ulll2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ulll2 a{
+    
+    display: flex;
+    margin: 10px;
+    box-shadow: 0px 0px 2px #ffffff ,0px 0px 0px 2px #ecf0f3,3px 3px 8px #a7aaaf;
+    border-radius: 5px;
+    font-size: 15x;
+    padding: 5px 0px 5px 5px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+/* Home-Page design Done */
+
+/* Designing to Skills Part */
+.skills{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #ffffff; */
+}
+.lang{
+  width: 500px;
+  margin-top: 50px;
+}
+
+.lang1{
+    /* background-color:rgb(14, 14, 14); */
+    
+    box-shadow: 0px 0px 2px #ffffff ,0px 0px 0px 3px #ecf0f3,4px 4px 10px #a7aaaf;
+    border-radius: 3px;
+    font-size: 10px;
+    list-style: none;
+    padding: 5px;
+    width: 150px;
+    margin-top:20px;
+    text-align: center;
+    cursor: pointer;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-size: small;
+    color: rgb(3, 3, 3);
+    font-weight: bolder;
+}
+
+
+/* CSS FOR ABOUT US */
+.aboutus{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.new1{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+    margin-top: 80px;
+}
+.logo2 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 2px #b3b3b3 ,0px 0px 0px 5px #ffffff,8px 8px 10px #a7aaaf,-8px -8px 15px rgb(247, 247, 247);
+}
+
+.info{
+    
+    padding: 100px;
+}
+
+/* Content Of Contact Us PAge */
+
+.contactus{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 550px;
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 30px;
+    background-color: #f3f3f3;
+    box-shadow: 8px 8px 20px #cbced1, -10px -10px 10px #fff;
+}
+
+.info2{
+    margin-left: 30px;
+    height: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info2 p{
+    padding: 20px;
+}
+
+.logo5{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 8px;
+    color: rgb(213, 6, 255);
+    text-shadow: 3px 2px 5px #d1d1d1;
+    font-size: 30px;
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 2px #5f5f5f ,0px 0px 0px 5px #ecf0f3,8px 8px 15px #a7aaaf,-8px -8px 15px #fff;
+}
+.fields{
+    width: 90%;
+    padding: 55px 15px 15px 15px;
+}
+.fields input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    color: #555;
+    padding: 20px 15px 16px 5px;
+}
+.username,
+.password{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbcecb,inset -8px -8px 8px #fff;
+}
+
+textarea{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    color: #555;
+    padding: 20px 15px 16px 5px;
+}
+
+.signin-button{
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+    background-color: #02c8db;
+    box-shadow: 3px 3px 6px #b1b1b1,-3px -3px 8px #fff;
+    transition: all 0.7s;
+}
+.signin-button:hover{
+    background-color: #50e5e5;
+}
+.signin-button:active{
+    background-color: #88ef9e;
+}
+
+.footer{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.shareit{
+    display: flex;
+    flex-direction: column;
+}
+.shareit li{
+    margin: 15px;
+    list-style: none; 
+    height: 20px;
+    box-shadow: 0px 0px 2px #fafafa ,0px 0px 0px 3px #f5f5f5,3px 3px 10px #c7c7c7;
+    border-radius: 2px;
+}
+.shareit li a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    padding: 18px;
+}
+.myfooter{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+.mylist{
+    display: flex;
+    margin-top: 18px;
+    flex-direction: row;
+}
+.mylist li{
+    margin: 15px;
+    text-align: center;
+    list-style: none; 
+    height: 25px;
+    box-shadow: 0px 0px 2px #fafafa ,0px 0px 0px 5px #eeeeee,3px 3px 10px #c7c7c7;
+    border-radius: 2px;
+} 
+.mylist li a{
+    text-decoration: none; 
+    color: rgb(174, 0, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    padding: 18px;
+    margin: 20px;
+}
+.info3{
+    margin: 20px;
+}
+
+
